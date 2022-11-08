@@ -1,0 +1,21 @@
+article{
+    width: 1920px;
+    height: 1070px;
+    padding: 2rem 4rem;
+    background-color: rgb(216, 180, 81);
+}
+.texto_2{
+    font-size: 40px;
+    text-align: center;
+    padding: 2rem;
+}
+.video{
+    width: 700px;
+    height: 300px;
+    
+}
+.video_1{
+    width: 1762px;
+    height: 715px;
+    padding: 10rem;
+}

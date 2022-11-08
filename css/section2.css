@@ -1,0 +1,12 @@
+nav{
+    width: 1920px;
+    height: 1647px;
+    padding: 2rem 4rem;
+    background-color: rgb(250, 187, 14);
+}
+.folio{
+    width: 1800px;
+    height: 70px;
+    text-align: center;
+    background-color: red;
+}

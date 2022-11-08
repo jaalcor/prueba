@@ -1,0 +1,47 @@
+aside{
+    width: 1920px;
+    height: 1070px;
+    padding: 2rem 4rem;
+    background-color: rgb(138, 207, 138);
+}
+.do{
+    height: 7rem;
+    font-size: large;
+    text-align: center;
+  
+    background-color: rgb(155, 226, 138);
+    
+}
+.desing{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: palevioletred;
+}
+.ux{
+  width:380px ;
+  height: 409px;
+  padding: 20px 40px;
+  margin: 61px;
+  flex-direction: row;
+  color: #FFFFFF;
+  background-color: #333333;
+}
+.graphic{
+    width:380px ;
+    height: 409px;
+    padding: 20px 40px;
+    margin: 61px;
+    flex-direction: row;
+    background-color: #D6D6D6;
+    
+}
+.deve{
+    width:380px ;
+    height: 409px;
+    padding: 20px 40px;
+    margin: 61px;
+    flex-direction: row;
+    background-color: #D6D6D6;
+}

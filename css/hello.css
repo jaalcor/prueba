@@ -1,0 +1,49 @@
+section{
+    width: 1920px;
+    height: 900px;
+    padding: 2rem 4rem;
+    background-color: rgb(215, 241, 212);
+}
+.hello{
+     display: flex;
+     
+     background-color: rgb(246, 252, 191);
+}
+.texto{
+    width:899px;
+    padding: 3rem;
+    flex-direction: row;
+    background-color: rgb(127, 168, 255);
+
+}
+.imagen{
+    padding: 3rem;
+    flex-direction: row;
+}
+.redes{
+    padding: 3rem;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(240, 198, 255);
+}
+.face{
+    height: 40px;
+    padding: 7px ;
+    flex-direction: row;
+}
+.li{
+    height: 40px;
+    padding: 7px ;
+    flex-direction: row;
+}
+.be{
+    height: 40px;
+    padding: 7px ;
+    flex-direction: row;
+}
+.twi{
+    height: 40px;
+    padding: 7px ;
+    flex-direction: row;
+
+}
