@@ -2,25 +2,44 @@ section{
     width: 1920px;
     height: 900px;
     padding: 2rem 4rem;
-    background-color: rgb(215, 241, 212);
+    background-color: rgb(116, 236, 103);
 }
-.hello{
+.hello{ 
+     width: 1800px;
+     height: 640px;
      display: flex;
-     
-     background-color: rgb(246, 252, 191);
+     background-color: rgb(222, 235, 113);
 }
 .texto{
-    width:899px;
-    padding: 3rem;
+    width:750px;
+    height: 640px;
+    padding: 1rem;
     flex-direction: row;
     background-color: rgb(127, 168, 255);
-
+}
+.sarah{
+    font-size: 74px;
+}
+.creator{
+    font-size: 40px;
+}
+.few{
+    font-size: 24px;
 }
 .imagen{
-    padding: 3rem;
+    width: 850px;
+    height: 640px;
     flex-direction: row;
+    background-color: black;
+}
+.persona{
+    width: 700px;
+    height: 581px;
+  
+    
 }
 .redes{
+    width: 1600px ;
     padding: 3rem;
     display: flex;
     flex-direction: row;
