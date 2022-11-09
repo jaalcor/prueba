@@ -11,6 +11,8 @@
      <link rel="stylesheet" href="./css/article.css">
      <link rel="stylesheet" href="./css/aside.css">
      <link rel="stylesheet" href="./css/section2.css">
+     <link rel="stylesheet" href="./css/testimonial.css">
+     <link rel="stylesheet" href="./css/say.css">
      <link rel="stylesheet" href="./css/configuración.css">
      
      
@@ -159,6 +161,10 @@
                 .ui{
                  font-size: 46px;
                 }
+                .ment{
+                 font-size: 35px;
+                  padding: 15px;
+                  }
                 .user{
                  font-size: 18px;
                 }
@@ -181,11 +187,117 @@
               }
               nav{
                   width: 320px;
+                  height: 1907px;
+                  padding: 1rem ;
               }
               .folio{
-                width: 300px;
-                height: 70px
+                width: 310px;
+                height: 280px;
+                font-size: 25px;  
+                
               }
+              .all{
+                flex-direction: column;
+                font-size: 18px;
+                text-align: start;
+              }
+              .fotos{
+                width: 290px;
+                height: 1407px;
+                padding: 0px;
+              }
+              .primeras {
+                width: 290px;
+                display: flex;
+                flex-direction: column;
+              }
+              .señora {
+                width: 280px;
+                height: 200px;
+                margin: 10px;
+              }
+              .computadora{
+                width: 280px;
+                height: 200px;
+                margin: 10px;
+                
+              }
+              .codigo{
+                width: 280px;
+                height: 200px;
+                margin: 10px;
+              }
+              .segundas{
+                width: 290px;
+                display: flex;
+                flex-direction: column;
+              }
+              .leche{
+                width: 280px;
+                height: 200px;
+                margin: 10px;
+              }
+              .lapicero {
+                width: 280px;
+                height: 200px;
+                margin: 10px;
+              }
+              .change{
+                width: 280px;
+                height: 200px;
+                margin: 10px;
+              }
+              section {
+                  width: 320px;
+                  height: auto;
+                  padding: 1rem ;
+              }
+              .testimonial{
+                width: 290px;
+                height: 150px;
+                font-size: 30px;
+                text-align: start;
+              }
+              .client {
+                width: 280px;
+                height: 700px;
+                flex-direction: column;
+              }
+              .señor{
+                width: 290px;
+                height: auto;
+                padding: 0px;
+              }
+              .foto_señor {
+                width: 288px;
+                height: 360px;
+               }
+               .must {
+                padding: 0px;
+                font-size: 18px;
+               }
+               .explain {
+                margin: 20px;
+                text-align: justify;
+               }
+               .jared {
+                 margin:30px;
+               }
+               .ceo {
+                margin: 30px;
+               }
+               main {
+                width: 320px;
+                height: auto;
+                padding: 10px;
+               }
+               .say{
+                width: 290px;
+                height: 400px;
+                padding: 0px;
+               }
+
+
 
         }
 
@@ -246,7 +358,8 @@
                 <p class="read">Read more</p>
             </div>
             <div class="deve">
-                <h1 class="ui">Web <br>Development</h1>
+                <h1 class="ui">Web </h1>
+               <h1 class="ment">Development</h1>
                 <p class="user">User interface desing, user <br>experience desing, user research.</p>
                 <p class="read">Read more</p>
             </div>
@@ -256,7 +369,52 @@
     <nav>
         <div class="folio"> 
             <h1>Portafolio</h1>
+            <div class="all">
+             <p class="ll">- All</p>
+             <p class="ll">- UI & UX</p>
+             <P class="ll">- Graphic Desing</P>
+             <p class="ll">- Web Development</p>
+            </div>
+        </div>
+        <div class="fotos">
+            <div class="primeras">
+              <img class="señora" src="https://raw.githubusercontent.com/jaalcor/recuperacion/main/im%C3%A1genes/Captura%20de%20pantalla%202022-11-07%20135354.png" alt="fotografía">
+              <img class="computadora" src="https://raw.githubusercontent.com/jaalcor/recuperacion/main/im%C3%A1genes/Captura%20de%20pantalla%202022-11-07%20135803.png" alt="fotografía">
+              <img class="codigo" src="https://raw.githubusercontent.com/jaalcor/recuperacion/main/im%C3%A1genes/Captura%20de%20pantalla%202022-11-07%20135454.png" alt="fotografía">
+            </div>
+            <div class="segundas">
+              <img class="leche" src="https://raw.githubusercontent.com/jaalcor/recuperacion/main/im%C3%A1genes/Captura%20de%20pantalla%202022-11-07%20135325.png" alt="fotografía">
+              <img class="lapicero" src="https://raw.githubusercontent.com/jaalcor/recuperacion/main/im%C3%A1genes/Captura%20de%20pantalla%202022-11-07%20135657.png" alt="fotografía">
+              <img class="change" src="https://raw.githubusercontent.com/jaalcor/recuperacion/main/im%C3%A1genes/Captura%20de%20pantalla%202022-11-07%20135556.png" alt="fotografía">
+            </div>
         </div>
     </nav>
+
+    <section>
+      <div class="testimonial">
+        <h1>Client Testimonial</h1>
+      </div>
+      <div class="client">
+        <div class="señor">
+          <img class="foto_señor" src="https://raw.githubusercontent.com/jaalcor/recuperacion/main/im%C3%A1genes/Captura%20de%20pantalla%202022-11-07%20135908.png" alt="fotografía cliente">
+        </div> 
+        <div class="must">
+          <p class="explain">But i most explain to you how all this mistaken <br>idea of denuncing pleasure and prainsing pain <br>was born and I will give you a complete.</p>
+          <h3 class="jared">Jared Warner</h3>
+          <p class="ceo">CEO OF Zeo</p>
+        </div>
+      </div> 
+    </section>
+
+    <main>
+      <div class="say">
+           <p class="get">Get in touch</p>
+           <h1 class="solo">Just Say Hello!</h1>
+           <div class="boton_1">
+            <a class="boton" href="">Contact</a>
+           </div>
+    </main>
+         
+    </article>
 </body>
 </html>

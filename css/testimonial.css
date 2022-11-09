@@ -1,0 +1,46 @@
+section .{
+    width: 1920px;
+    height: 1033px;
+    padding: 2rem 4rem;
+    background-color: rgb(204, 151, 248);
+}
+.testimonial {
+    width: 1800px;
+    height: 100px;
+    font-size: 50px;
+    text-align: center;
+    background-color: beige;
+}
+.client {
+    width: 1800px;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(245, 230, 24);
+}
+.señor {
+    width: 686px;
+    height: 700px;
+    padding: 20px;
+    background-color: aqua;
+}
+.foto_señor{
+    width: 486px;
+    height: 589px;
+    padding: 0px;
+}
+.must{
+    padding: 40px;
+    font-size: 40px;
+}
+.explain {
+    margin: 90px;
+}
+.jared{
+    font-size: 28px;
+    margin: 80px;
+}
+.ceo{
+    font-size: 20px;
+    margin: 80px;
+}
